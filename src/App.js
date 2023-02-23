@@ -1,5 +1,5 @@
 import "./sass/app.scss";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,7 +12,7 @@ import NotFoundPage from "./pages/NotFoundPage";
  */
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

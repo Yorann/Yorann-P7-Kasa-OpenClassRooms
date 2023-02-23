@@ -44,13 +44,13 @@ import { useState } from 'react'
                     
 					<img
 						className="slider_arrow slider_arrow_right"
-						src="./images/arrowright.png"
+						src="/images/arrowright.png"
 						alt="next slider"
 						onClick={nextSlide}
 					/>
 					<img
 						className="slider_arrow slider_arrow_left"
-						src="./images/arrowleft.png"
+						src="/images/arrowleft.png"
 						alt="previous slider"
 						onClick={prevSlide}
 					/>

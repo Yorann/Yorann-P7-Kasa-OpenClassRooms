@@ -46,7 +46,7 @@ function Collapse({title, content}) {
                     {title}
                     <img 
                         className={active ? 'arrow arrow-up' : 'arrow arrow-down'} 
-                        src="./images/arrow.png" 
+                        src="/images/arrow.png" 
                         alt="show content" 
                     />
                 </h3>
