@@ -1,8 +1,8 @@
 import orangestar from "../images/orangestar.png";
 import greystar from "../images/greystar.png";
 
-//Crée un tableau avec 5 entrées en passant l'objet rating... Enumère ce tableau en affichant les etoiles oranges tant qu'elles
-//sont inferieurs ou égale a la valeur de l'objet rating dans les tableau datas en ensuite en grises pour les restantes
+/*Crée un tableau avec 5 entrées en passant l'objet rating... Enumère ce tableau en affichant les etoiles oranges tant qu'elles
+sont inferieurs ou égale à la valeur de l'objet rating dans les tableau datas en ensuite en grises pour les restantes*/
 function Rating({rating}) {
 	return (
 		<div className="accomodation_content_host_stars">

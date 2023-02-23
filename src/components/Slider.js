@@ -1,12 +1,8 @@
 //import arrowright from '../images/arrowright.png'
 import { useState } from 'react'
 
-/**
- * Définie l'index des images à 0(premier élément) puis l'augmente ou soustrait de 1 en fonction de deux fonctions. 
- * @param {*} param0 
- * @returns 
- */
 
+ //Définie l'index des images à 0(premier élément) puis l'augmente ou soustrait de 1 en fonction de deux constantes. 
  function Slider({imageSlider}) {
 
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -22,13 +18,12 @@ import { useState } from 'react'
         if(currentIndex === 0)
             setCurrentIndex(imageSlider.length - 1)
     }
-
+    //Affiche la première image du tableau d'url
+    //Construit si nombre d'entrées du tableau est superieur à 1 les balises contenant les flèches gauche et droite
+    //dont le clique modifie l'index comme indiqué au dessus
+    //et construit un compteur qui montrent l'image vue par l'utilisateur sur le nombre d'images visible
     return (
 		<section
-			//Affiche la première image du tableau d'url
-			//Retourne si nombre d'entrés du tableau est superieur à 1 les balises contenant les flèches gauche et droite
-			//dont le clique modifie l'index comme indiqué au dessus
-			//Affiche un compteur qui montrent l'image vue par l'utilisateur sur le nombre d'images visible
 			className="slider"
 		>
 			{imageSlider.map((img, index) => {
