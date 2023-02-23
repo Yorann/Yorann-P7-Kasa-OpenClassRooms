@@ -1,0 +1,18 @@
+.cards-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    @media screen and (max-width: 700px) {
+        background-color: #ffffff;
+        padding-top: 0px;
+        margin-top: 22px;
+        gap: 22px;
+    }
+}

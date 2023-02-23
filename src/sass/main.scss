@@ -1,0 +1,24 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500;700&family=Shrikhand&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Roboto';
+}
+.App {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    @media screen and (max-width: 700px) {
+        padding-left: 15px;
+        padding-right: 15px;
+        }
+        @media screen and (min-width:699px) and (max-width:1350px)  {
+            padding-left: 25px;
+            padding-right: 25px;
+      }
+    }

@@ -1,0 +1,115 @@
+.accomodation{
+    &_content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: #FF6060;
+        width: 100%;
+        margin: 0 auto;
+        @media screen and (max-width: 650px){
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;   
+        }
+        &_infos{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: 500;
+            font-size: 14px;
+            h1{
+                font-size: 36px;
+                font-weight: 500;
+                margin-bottom: 0px;
+                margin-top: 0;
+            }
+            p{
+                font-size: 18x;
+                font-weight: 500;
+                margin-top: 0;
+            }
+            button{
+                display: inline;
+                padding: 5px 15px;
+                margin-right: 10px;
+                cursor: pointer;
+                border-radius: 10px;
+                border: none;
+                color: white;
+                background-color: #FF6060;
+                &:hover{
+                    box-shadow: 0 2px 8px rgb(0, 0, 0);
+                }
+            }
+            div{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;  
+            }
+        }
+        &_host{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            @media screen and (max-width: 650px){
+                width: 100%;
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                align-items: center;
+            }
+            div{
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-end;
+                gap: 0 10px;
+                @media screen and (max-width: 500px){
+                    gap: 0 5px;   
+                }
+            }
+            &_name{
+                align-self: center;
+                flex-direction: column;
+            }
+            img{
+                width: 64px;
+                height: 64px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+            }
+            &_stars{
+                display: flex;
+                gap: 10px;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    @media screen and (max-width: 650px){
+                        width: 20px;
+                        height: 20px;  
+                    }
+                }
+            }
+        }
+    }
+    &_collapse{
+        justify-content: space-between;
+        width: 100%;
+        display: flex;
+        margin-bottom: 30px;
+        @media screen and (max-width: 650px){
+            display: flex;
+            flex-direction: column;}
+        &_item{
+            width: 582px;
+            @media screen and (max-width: 650px){
+                width: 100%;}
+            @media screen and (min-width:651px) and (max-width:1400px)  {
+                width: 40%;
+          }
+        }
+    }    
+}

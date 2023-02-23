@@ -1,0 +1,40 @@
+.footercontainer {
+    position: relative;
+
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 209px;
+    margin-left: -110px;
+    margin-right: -110px;
+    margin-bottom: -10px;
+
+
+
+    @media screen and (min-width:651px) and (max-width:1350px) {
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+
+    @media screen and (max-width: 650px) {
+        margin-left: -25px;
+        margin-right: -25px;
+        margin-bottom: -10px;
+
+    }
+
+    &__content {
+        justify-content: center;
+    }
+
+    &__logo {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
