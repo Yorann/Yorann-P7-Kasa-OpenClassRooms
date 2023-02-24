@@ -19,6 +19,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="accomodationpage/:id" element={<AccomodationPage />}/>
           <Route path="*" element={<NotFoundPage />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
