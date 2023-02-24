@@ -26,7 +26,7 @@ function Collapse({ title, content }) {
 
 	//Definie la fonction createRef de react dans la constante collapse
 	const collapse = createRef();
-    
+
 	/*Si l'objet activated est à son contraire: toggle prend pour valeur (setToggle) la hauteur de reference du contenu et une opacité de 1. 
     et set active prend la valeur (setActive) false.*/
 	//Sinon toogle prend la hauteur 0 et l'opacité 0 et active prend la valeur false.

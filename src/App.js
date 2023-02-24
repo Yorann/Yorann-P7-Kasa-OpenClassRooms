@@ -1,5 +1,5 @@
 import "./sass/app.scss";
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
