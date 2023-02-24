@@ -1,16 +1,5 @@
 import { createRef, useState } from 'react';
-
-//Crée un composent qui construit une liste ul dont les éléments sont énumérés en fonction de leur index
-function CollapseUl({ content }) {
-	return (
-		<ul>
-			{content.map((item, index) => {
-				return <li key={index}>{item}</li>;
-			})}
-		</ul>
-	);
-}
-
+import CollapseUl from './CollapseUl'
 /*
  * A partir d'un titre et d'un contenu retourne une balise div avec un titre et un contenu.
  * Si le contenu est un tableau alors énumère les éléments dans une liste ul.

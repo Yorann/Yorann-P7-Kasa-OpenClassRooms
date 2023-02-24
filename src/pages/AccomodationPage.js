@@ -1,4 +1,4 @@
-import Slider from '../components/Slider';
+import Gallery from '../components/Gallery';
 import { useEffect, useState } from 'react';
 import datas from '../AccomodationDatas/datas';
 import { useParams, Navigate } from 'react-router-dom';
@@ -40,7 +40,7 @@ function AccomodationPage() {
 
 	return (
 		<div>
-			<Slider imageSlider={imageSlider} />
+			<Gallery imageSlider={imageSlider} />
 			<main className="accomodation">
 				<div className="accomodation_content">
 					<div className="accomodation_content_infos">

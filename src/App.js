@@ -6,6 +6,7 @@ import About from "./pages/About";
 import AccomodationPage from "./pages/AccomodationPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
+
 /**
  * L'application contient le layout et redirige vers home, about , accomodation page
  * @returns 
@@ -19,7 +20,6 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="accomodationpage/:id" element={<AccomodationPage />}/>
           <Route path="*" element={<NotFoundPage />} />
-
         </Route>
       </Routes>
     </BrowserRouter>

@@ -5,7 +5,7 @@ import Card from "./AccomodationCard";
  * Génère pour chaque entrées du tableau data des cartes avec les valeurs de id, title et cover du tableau datas.
  * @returns 
  */
-function Gallery() {
+function AppartmentsGallery() {
   return (
     <main className="cards-gallery">
       {datas.map((data) => {
@@ -21,4 +21,4 @@ function Gallery() {
     </main>
   );
 }
-export default Gallery;
+export default AppartmentsGallery;

@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 
  //Définie l'index des images à 0(premier élément) puis l'augmente ou soustrait de 1 en fonction de deux constantes. 
- function Slider({imageSlider}) {
+ function Gallery({imageSlider}) {
 
     const [currentIndex, setCurrentIndex] = useState(0)
 // Ajoute 1 à l'index , si l'index est égale au dernier élément du tableau definie l'index à zero(premier élément du tableau)
@@ -58,4 +58,4 @@ import { useState } from 'react'
 	);
 }
 
-export default Slider;
+export default Gallery;

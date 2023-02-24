@@ -1,11 +1,11 @@
-import Gallery from '../components/AccomodationGallery';
+import AppartmentsGallery from '../components/AccomodationGallery';
 import Banner from '../components/Banner';
 
 function Home() {
 	return (
 		<div>
 			<Banner />
-            <Gallery />
+            <AppartmentsGallery />
 
 		</div>
 	);
